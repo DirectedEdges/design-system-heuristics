@@ -123,22 +123,19 @@
         "category": "Code",
         "subcategory": "Quality & Testing",
         "topic": "Unit testing",
-        "heuristic": "The system has well defined procedures for authoring and running unit tests.",
-        "challengeSuccessTheme": "Testing"
+        "heuristic": "The system has well defined procedures for authoring and running unit tests."
     },
     {
         "category": "Code",
         "subcategory": "Quality & Testing",
         "topic": "Integration testing",
-        "heuristic": "The system code is tested for integration into frameworks (Angular? Vue? React?) and versions in use within the adopting community.",
-        "challengeSuccessTheme": "Testing"
+        "heuristic": "The system code is tested for integration into frameworks (Angular? Vue? React?) and versions in use within the adopting community."
     },
     {
         "category": "Code",
         "subcategory": "Quality & Testing",
         "topic": "Visual regression testing",
-        "heuristic": "The system has well defined pages/views per component for conducting visual regression.",
-        "challengeSuccessTheme": "Testing"
+        "heuristic": "The system has well defined pages/views per component for conducting visual regression."
     },
     {
         "category": "Code",
@@ -150,22 +147,19 @@
         "category": "Code",
         "subcategory": "Quality & Testing",
         "topic": "Assistive Accessibility",
-        "heuristic": "The system code is evaluated regularly using assistive technology like JAWS.",
-        "challengeSuccessTheme": "Testing"
+        "heuristic": "The system code is evaluated regularly using assistive technology like JAWS."
     },
     {
         "category": "Code",
         "subcategory": "Quality & Testing",
         "topic": "Performance",
-        "heuristic": "The system thoroughly documents and is built to optimize system- and product-based performance concerns.",
-        "challengeSuccessTheme": "Performance"
+        "heuristic": "The system thoroughly documents and is built to optimize system- and product-based performance concerns."
     },
     {
         "category": "Code",
         "subcategory": "Quality & Testing",
         "topic": "Code linting",
-        "heuristic": "The system adheres to and lints for well-documented conventions for markup, style, scripting and file organization (a simple example: Spaces or Tabs) used when authoring system code.",
-        "challengeSuccessTheme": "Testing"
+        "heuristic": "The system adheres to and lints for well-documented conventions for markup, style, scripting and file organization (a simple example: Spaces or Tabs) used when authoring system code."
     },
     {
         "category": "Code",
@@ -177,15 +171,13 @@
         "category": "Code",
         "subcategory": "Quality & Testing",
         "topic": "Browser & Device Testing",
-        "heuristic": "The system supports a well-defined set of browser and device combinations, including tiered / graded support for aging categories.",
-        "challengeSuccessTheme": "Testing"
+        "heuristic": "The system supports a well-defined set of browser and device combinations, including tiered / graded support for aging categories."
     },
     {
         "category": "Code",
         "subcategory": "Quality & Testing",
         "topic": "Automated accessibility",
-        "heuristic": "The system code is required to be accessible and is tested using automated accessibility-related tools in the dev and/or QA workflow.",
-        "challengeSuccessTheme": "Testing"
+        "heuristic": "The system code is required to be accessible and is tested using automated accessibility-related tools in the dev and/or QA workflow."
     },
     {
         "category": "Code",
