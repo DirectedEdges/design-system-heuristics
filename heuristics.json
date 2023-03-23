@@ -1,0 +1,1012 @@
+[
+    {
+        "category": "Code",
+        "subcategory": "Architecture",
+        "topic": "Dual Version Use",
+        "heuristic": "The system code has sufficiently addressed the use of multiple versions of the same feature within the same page or single page app, consistent with potential future needs of adopters."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Architecture",
+        "topic": "Across Component Independence",
+        "heuristic": "The system's components have no dependence on the presence of other components except explicit dependents."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Architecture",
+        "topic": "Namespacing",
+        "heuristic": "The system code namespaces component names, classes, and other features appropriately."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Architecture",
+        "topic": "Task Runners & Environments",
+        "heuristic": "The system code runs within a well defined environment for task running, dependency management, scaffolding tools, and other tools needed to launch and be productive in the environment quickly."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Architecture",
+        "topic": "System-to-Product Encapsulation",
+        "heuristic": "The system code is resiliant to and separated from other frameworks, product-specific code such as at the component and version level, minimizing collisions during use and integration."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Architecture",
+        "topic": "Within Library Dependencies",
+        "heuristic": "The system's code separates concerns of base visual style (and it's parts), layout engine(s), element definitions, and components as well organized dependencies."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Architecture",
+        "topic": "Optimization & Minification",
+        "heuristic": "The system code sufficiently optimizes and minifies outputs for performant integration by adopting products."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Architecture",
+        "topic": "Code Style Guide",
+        "heuristic": "The system team has decided and documented conventions on the proper style for authoring visual style and component features in markup, style and script."
+    },
+    {
+        "category": "Code",
+        "subcategory": "JavaScript",
+        "topic": "Framework",
+        "heuristic": "The system is offered in one (or more) frameworks (such as React or Angular) for named framework version(s)."
+    },
+    {
+        "category": "Code",
+        "subcategory": "JavaScript",
+        "topic": "Composition",
+        "heuristic": "The system code has well-defined approach for composition, slots, and dependencies within and across components."
+    },
+    {
+        "category": "Code",
+        "subcategory": "JavaScript",
+        "topic": "Non-library Dependencies",
+        "heuristic": "The system has an established approach for scripting including libraries, principles, and why to include and exclude third-party dependencies."
+    },
+    {
+        "category": "Code",
+        "subcategory": "JavaScript",
+        "topic": "API & prop validation",
+        "heuristic": "The system code defines a concrete API per component and validates props relative to that API."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Markup & Style",
+        "topic": "CSS compilation tools",
+        "heuristic": "The system uses standard tooling for authoring style including a preprocessor, guidelines, resets, and post-processing that set the base visual system of products using it."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Markup & Style",
+        "topic": "Style tooling",
+        "heuristic": "The system offers visual style utilities, mixins and atomic features to support color, space and typography so that other teams can create custom components and compositions themselves."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Markup & Style",
+        "topic": "Reset level",
+        "heuristic": "The system code does not rely on a page-level reset or other external dependencies it doesn't control. Instead, the system resets relevant styles at the system feature level or product architecture solves for this challenge."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Markup & Style",
+        "topic": "Fonts & icons",
+        "heuristic": "The system code solves for or relies upon dependable fonts and icons in a performant manner across products."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Markup & Style",
+        "topic": "Markup reuse",
+        "heuristic": "The system's HTML markup is templated by component, variations, and examples."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Markup & Style",
+        "topic": "Tokens as dependency",
+        "heuristic": "The system offers tokens as a separate package and dependency for use by product teams creating custom components as well as system components themselves."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Markup & Style",
+        "topic": "CSS methodology",
+        "heuristic": "The system code is authored using a standard methodology (such as BEM, Styled Components, or the like) to modularize style."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Markup & Style",
+        "topic": "Token application",
+        "heuristic": "The system applies visual style to all components in a consistent, thorough manner, minimizing inline styling where semantic and component-specific tokens can be used."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Quality & Testing",
+        "topic": "Unit testing",
+        "heuristic": "The system has well defined procedures for authoring and running unit tests.",
+        "challengeSuccessTheme": "Testing"
+    },
+    {
+        "category": "Code",
+        "subcategory": "Quality & Testing",
+        "topic": "Integration testing",
+        "heuristic": "The system code is tested for integration into frameworks (Angular? Vue? React?) and versions in use within the adopting community.",
+        "challengeSuccessTheme": "Testing"
+    },
+    {
+        "category": "Code",
+        "subcategory": "Quality & Testing",
+        "topic": "Visual regression testing",
+        "heuristic": "The system has well defined pages/views per component for conducting visual regression.",
+        "challengeSuccessTheme": "Testing"
+    },
+    {
+        "category": "Code",
+        "subcategory": "Quality & Testing",
+        "topic": "Visual test / stories",
+        "heuristic": "The system has well-defined locations for and structure of visual test cases, exposing variations, states, content samples, and other scenarios."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Quality & Testing",
+        "topic": "Assistive Accessibility",
+        "heuristic": "The system code is evaluated regularly using assistive technology like JAWS.",
+        "challengeSuccessTheme": "Testing"
+    },
+    {
+        "category": "Code",
+        "subcategory": "Quality & Testing",
+        "topic": "Performance",
+        "heuristic": "The system thoroughly documents and is built to optimize system- and product-based performance concerns.",
+        "challengeSuccessTheme": "Performance"
+    },
+    {
+        "category": "Code",
+        "subcategory": "Quality & Testing",
+        "topic": "Code linting",
+        "heuristic": "The system adheres to and lints for well-documented conventions for markup, style, scripting and file organization (a simple example: Spaces or Tabs) used when authoring system code.",
+        "challengeSuccessTheme": "Testing"
+    },
+    {
+        "category": "Code",
+        "subcategory": "Quality & Testing",
+        "topic": "Dev previews / branch publishing",
+        "heuristic": "The system code tools enable a developer to quickly share a URL of a branch or in-progress work with a collaborator for independent review."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Quality & Testing",
+        "topic": "Browser & Device Testing",
+        "heuristic": "The system supports a well-defined set of browser and device combinations, including tiered / graded support for aging categories.",
+        "challengeSuccessTheme": "Testing"
+    },
+    {
+        "category": "Code",
+        "subcategory": "Quality & Testing",
+        "topic": "Automated accessibility",
+        "heuristic": "The system code is required to be accessible and is tested using automated accessibility-related tools in the dev and/or QA workflow.",
+        "challengeSuccessTheme": "Testing"
+    },
+    {
+        "category": "Code",
+        "subcategory": "Releases",
+        "topic": "Predictability",
+        "heuristic": "The system team regularly releases and distributes system versions through planned time increments (such as sprints and releases) or releases continuously on demand."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Releases",
+        "topic": "Versioning",
+        "heuristic": "The system has a well-defined process for identifying whether a change is a patch, minor, or major change."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Releases",
+        "topic": "Versioning level & dependents",
+        "heuristic": "The system has identified what level is versioning (library or component) and has processes in place to release packages, including dependents, commensurate with it's dependency tree."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Releases",
+        "topic": "Release process",
+        "heuristic": "The system team has a well-defined and efficient process for releasing system versions, deployed to where outputs (code, design assets, doc) are published and consumed."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Releases",
+        "topic": "Visual & API breaking change",
+        "heuristic": "The system offers minor upgrades without breaking changes, and documents what constitutes a visual or API driven breaking change."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Releases",
+        "topic": "History",
+        "heuristic": "The system has a codified way to publish and customers to implement specific versions, with documentation available for each version."
+    },
+    {
+        "category": "Code",
+        "subcategory": "Releases",
+        "topic": "Release synchronization",
+        "heuristic": "The system has a process for synchronizing and/or staggering the release of code, design assets, and documentation."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Authoring",
+        "topic": "Editorial quality",
+        "heuristic": "The system produces high quality copy and visuals in documentation."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Authoring",
+        "topic": "Peer review",
+        "heuristic": "The system team employs peer reviews of design, code and documentation."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Authoring",
+        "topic": "Relationship to other sites",
+        "heuristic": "The system documentation clearly identifies what content is published on the documentation versus what's available elsewhere such as Slack, Figma, Confluence, JIRA or Asana."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Authoring",
+        "topic": "Content model",
+        "heuristic": "System contributors follow editorial guidelines and content models for composing documentation."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Authoring",
+        "topic": "Content depth",
+        "heuristic": "Systems documentation offers sufficient depth on each topic."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Code",
+        "topic": "Sandboxes",
+        "heuristic": "The system site provides tools to experiment with style, markup and script as a code sandbox."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Code",
+        "topic": "Style",
+        "heuristic": "The system itemizes visual utilities, tokens and CSS classes relevant to configuring components."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Code",
+        "topic": "Installation & use",
+        "heuristic": "The system describes how to install and use component."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Code",
+        "topic": "Props, methods, & events",
+        "heuristic": "The system itemizes the props, methods and other attributes relevant to configuring component code."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Content Management",
+        "topic": "Doc components",
+        "heuristic": "The system designs, codes, tests, and documents component displays customized for their documentation site."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Content Management",
+        "topic": "Content management",
+        "heuristic": "The systems team has a defined approach for managing and publishing documentation content contributions from diverse authors."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Design",
+        "topic": "Balance of pictures & words",
+        "heuristic": "The system effectively illustrates design guidelines via Do/Don'ts, demos, video, and other non-prose means."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Design",
+        "topic": "Introductions",
+        "heuristic": "The system introduces components and other features pages succinctly and effectively."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Design",
+        "topic": "Assets",
+        "heuristic": "System documentation provides clear access to and descriptions about assets like design templates, code respositories, icon libraries."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Design",
+        "topic": "Design guideline breadth",
+        "heuristic": "The system describes guidelines for visual style, editorial, behavior and content."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Design",
+        "topic": "Accessibility",
+        "heuristic": "The system describes accessibility guidelines and approaches per component and generally in the composition of accessible experiences."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Design",
+        "topic": "Use When",
+        "heuristic": "The system describes when to use and not use a component."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Examples",
+        "topic": "Example tools",
+        "heuristic": "The system offers useful tools with code examples, such as copy, playgrounds, repos, and varying relevant formats."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Examples",
+        "topic": "Example variation & order",
+        "heuristic": "The system organizes component variations and examples effectively down the page."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Examples",
+        "topic": "Names",
+        "heuristic": "The system names component examples in navigation, pages, and inline links to effectively communicate their distinct use."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Examples",
+        "topic": "Explorer",
+        "heuristic": "The system offers a control-panel based tool to configure and experiment with component displays based on important properties."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Examples",
+        "topic": "Example quality",
+        "heuristic": "The system illustrates component variations and states visually with live examples and/or well organized images."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Information Architecture",
+        "topic": "Web-based",
+        "heuristic": "The system presents content immediately accessible as web-based, and minimizes the use of additional downloadable documents (usually, PDF guides) to expand on topics."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Information Architecture",
+        "topic": "Access",
+        "heuristic": "The system offers open, straightforward access to web-based system documentation for all potential customers via a stable, easy-to-remember URL."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Information Architecture",
+        "topic": "Treadedness across disciplines",
+        "heuristic": "System documentation blends concerns - design, content, code, accessibility - effectively so readers get an integrated story for each item."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Information Architecture",
+        "topic": "Presence",
+        "heuristic": "The system has an integrated web-based reference to understand what it is, it's parts, and it's processes."
+    },
+    {
+        "category": "Documentation",
+        "subcategory": "Information Architecture",
+        "topic": "Breadth & dindability",
+        "heuristic": "System documentation communicates system breadth and catalog effectively and provides navigation to quickly find an item of interest."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Components",
+        "topic": "Core interactions",
+        "heuristic": "The system offers sufficient variety of core interactions including buttons, including states (active, disabled) and diverse types (cancel, stepped progression, menu, split, etc)."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Components",
+        "topic": "Usability",
+        "heuristic": "The system validates parts through research they conduct or integrate with product-specific research events."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Components",
+        "topic": "Motion",
+        "heuristic": "The system provides a point-of-view and tools that enable designers and developers to apply motion effectively within interface design."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Components",
+        "topic": "Sizing",
+        "heuristic": "The system, if needed, shows a library-wide model for applying size to components."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Components",
+        "topic": "Page types",
+        "heuristic": "The system demonstrates important and/or frequently used page types built in part or largely from system UI components."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Components",
+        "topic": "Navigation components",
+        "heuristic": "The system offers a diverse set of navigation components - tabs, list groups, breadcrumbs, related & footer lists - that afford consistent, predictable movement across the experience."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Components",
+        "topic": "Forms",
+        "heuristic": "The system offers sufficient form controls, including checkbox, radio button, textbox, textarea, select menu."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Components",
+        "topic": "Device bias and priorities",
+        "heuristic": "The system releases components designed and built responsively using techniques like Mobile First, a bias towards native, and/or other priorities established by the system team."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Components",
+        "topic": "Responsiveness",
+        "heuristic": "The system provides page-level responsiveness and device profile impacts, demonstrating how large regions rearrange for different device sizes."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Components",
+        "topic": "Grids & layout",
+        "heuristic": "The system offers layout engine tooling for scaffolding columnar grids, defining regions, and separating blocks via units and gutters."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Components",
+        "topic": "Content components",
+        "heuristic": "The system offers a relevant set of content components: video players, pull quotes, alerts, and more."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Components",
+        "topic": "Core elements",
+        "heuristic": "The system provides a sufficient set of atomic static elements, including paragraphs, headers, list types, tables, and other non-interactive items."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Design Assets",
+        "topic": "Design tokens",
+        "heuristic": "The system threads visual style - text, layers, and  more - through reusable component assets and for use in custom component designs."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Design Assets",
+        "topic": "Page assets",
+        "heuristic": "The system offers page-level starting points & supporting assets (stencils, swatch palettes, etc) sufficiently incorporated into design tools."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Design Assets",
+        "topic": "Asset integration",
+        "heuristic": "The system eases use of style assets including fonts, icons, and other relevant assets for use in both developer and designer tools."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Design Assets",
+        "topic": "UI components",
+        "heuristic": "The system offers commonly reused components (buttons, forms, etc) within identified design tools."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Design Assets",
+        "topic": "Supported tools",
+        "heuristic": "The system supports identified design tools - such as Sketch, Invision Studio or Figma - into which the system is applied and maintained using symbols, swatches, and other tooling."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Editorial",
+        "topic": "Voice & tone",
+        "heuristic": "The system defines the voice and tone that's applicable portfolio-wide and - when relevent - product-specific."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Editorial",
+        "topic": "Integrated guidance",
+        "heuristic": "The system integrates editorial style - voice & tone, length, and other guidelines - into element and component-specific documentation."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Editorial",
+        "topic": "References",
+        "heuristic": "The system offers a word list and/or other extensive references to support content authoring based on established conventions."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Editorial",
+        "topic": "General guidance",
+        "heuristic": "The system offers effective introductory material and a general purpose section organizing copywriting, voice & tone, and other editorial concerns."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Editorial",
+        "topic": "Punctuation",
+        "heuristic": "The system offers punctuation standards for convetions like captialization and formats (currency, dates, names, symbols, and more)."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Naming",
+        "topic": "Component names",
+        "heuristic": "System designers and front-end devs share establishing the UI component taxonomy, using the same terms for components."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Naming",
+        "topic": "Component groups",
+        "heuristic": "The system classifies UI components into meaningful taxonomy and categories system customers understand across design and code."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Naming",
+        "topic": "Elements and properties",
+        "heuristic": "The system shares an approach to element names (Anatomy), property names, and property options across design and code."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Naming",
+        "topic": "Styles and tokens",
+        "heuristic": "The system shares a naming scheme for design tokens and styles for typography, color and other visual attributes across design and code."
+    },
+    {
+        "category": "Features",
+        "subcategory": "UX patterns",
+        "topic": "App flows & features",
+        "heuristic": "The system provides patterns and tours for multi-step/page tasks for common, cross-product experiences, such as onboarding and authentication."
+    },
+    {
+        "category": "Features",
+        "subcategory": "UX Patterns",
+        "topic": "UI behaviors",
+        "heuristic": "The system describes patterns of interactive behaviors that span many components, such as states for loading, element interactions, and more."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Stability",
+        "heuristic": "The system's visual language - including color, typography, and iconography - is stable."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Motion",
+        "heuristic": "The system has a point-of-view on motion and demonstrates it via examples."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Surface colors",
+        "heuristic": "The system displays component variations across different background settings - typically, a range of light and dark background colors - with suitable style and accessible color contrast."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Theming",
+        "heuristic": "The system defines and demos how to customize and theme an experience using color and visual properties in a systematic fashion."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Color palettes",
+        "heuristic": "The system offers a scalable yet sufficiently constrainted color palettes across many colors and integrates brand colors effectively."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Icon tone and architecture",
+        "heuristic": "The system has a well-defined and documented tone and style for iconography."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Space concepts",
+        "heuristic": "The system offers non-generic reusable concepts that apply space consistently across components."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Icon collections",
+        "heuristic": "The system offers a well-organized and easy-to-use array of icon choices, including common UI icons (caret, magnifying glass, person, print) as well as specialized groups specifically relevant to this system."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Illustration",
+        "heuristic": "The system demonstrates illustration style via examples and grounding principles."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Data visualization",
+        "heuristic": "The system offers an in-depth and considered attributes supporting data visualization, including color and typography."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Typography hierarchy & use",
+        "heuristic": "The system defines typography usage including family, weight, size, hierarchy, and varying use by body v display, headings, and paragraphs."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Color contrast & accessibility",
+        "heuristic": "The system provides accessible color choices with sufficient contrast."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Color semantics",
+        "heuristic": "The system models and documents organized color choices for interactives, accents, backgrounds, text, and borders organized by setting, theme, and/or other considerations."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Typography in context",
+        "heuristic": "The system designates typography choices by intent (heading, body, micro), presentation type (long form vs dense UI) and platform (web site, web app, iOS, Android, ...)."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Reference designs",
+        "heuristic": "The system offers depictions of future-state composed designs applying the system and, if necessary, compares them to as-is product designs."
+    },
+    {
+        "category": "Features",
+        "subcategory": "Visual foundations",
+        "topic": "Space foundations",
+        "heuristic": "The system illustrates use of space at the elemental level of keylines, base sizing, compactness, target size, and ratios."
+    },
+    {
+        "category": "People",
+        "subcategory": "Community",
+        "topic": "Extended design community",
+        "heuristic": "The system team works with a well-defined group of designers to obtain feedback on system direction and emerging designs."
+    },
+    {
+        "category": "People",
+        "subcategory": "Community",
+        "topic": "Contributor integration",
+        "heuristic": "The system team fluidly incorporates non-core team contributors into system ceremonies and ways of working."
+    },
+    {
+        "category": "People",
+        "subcategory": "Community",
+        "topic": "Extended development community",
+        "heuristic": "The system team conducts regular events (such as working groups or guilds) with front-end developers across the community."
+    },
+    {
+        "category": "People",
+        "subcategory": "Community",
+        "topic": "Design community participation",
+        "heuristic": "The system team conducts regular events (such as critique) and collaborative connections across designers to drive cohesiveness."
+    },
+    {
+        "category": "People",
+        "subcategory": "Community",
+        "topic": "Extended developer community",
+        "heuristic": "The system team works with a well-defined group of developers to obtain input on system direction and technical architecture."
+    },
+    {
+        "category": "People",
+        "subcategory": "Core Team",
+        "topic": "Content discipline",
+        "heuristic": "The system team has allocated capacity with expertise and recognized authority for copywriting and/or content strategy."
+    },
+    {
+        "category": "People",
+        "subcategory": "Core Team",
+        "topic": "Visual design discipline",
+        "heuristic": "The system team has allocated capacity with expertise and recognized authority for visual style."
+    },
+    {
+        "category": "People",
+        "subcategory": "Core Team",
+        "topic": "Product management",
+        "heuristic": "The system is led by an engaged leader accountable for its activity and evangelizing it's benefits across higher-level members of the organization (C, VP, and Director level)."
+    },
+    {
+        "category": "People",
+        "subcategory": "Core Team",
+        "topic": "Front end discipline",
+        "heuristic": "The system team has allocated capacity with expertise and recognized authority for front-end engineering."
+    },
+    {
+        "category": "People",
+        "subcategory": "Core Team",
+        "topic": "UX/IA discipline",
+        "heuristic": "The system team has allocated capacity with expertise and recognized authority for user experience design and/or information architecture."
+    },
+    {
+        "category": "People",
+        "subcategory": "Core Team",
+        "topic": "Dependable capacity",
+        "heuristic": "The system is supported by staff who's allocation is not at risk due to shifting or overriding priorities."
+    },
+    {
+        "category": "People",
+        "subcategory": "Core Team",
+        "topic": "Design/development collaboration",
+        "heuristic": "The system team's designers and front end devs collaborate fluidly."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Communication",
+        "topic": "Target audiences",
+        "heuristic": "The system predictably communicates changes to interested constituents, whether designers using tools or developers using front-end code libraries."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Communication",
+        "topic": "Channels",
+        "heuristic": "The system has established channels - Slack, Email, Webpages, etc - for publicizing system strategy, releases, and community engagement."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Communication",
+        "topic": "Roadmap visibility",
+        "heuristic": "The system publishes clear and visible progress towards incremental (quarterly or longer) objectives visible to communities and leadership."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Communication",
+        "topic": "Messaging",
+        "heuristic": "The system has regular processes to notify interested system constituents about relevant system messages, such as a release, upcoming planning."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Contribution",
+        "topic": "Publishing",
+        "heuristic": "The system clearly identifies where and how a contributor publishes documentation."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Contribution",
+        "topic": "Stewardship",
+        "heuristic": "The system team effectively stewards designer and developer contribution activity."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Contribution",
+        "topic": "Activity",
+        "heuristic": "The system has evident influence of and contribution from community members not already on the system team(s)."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Contribution",
+        "topic": "Productivity",
+        "heuristic": "The system team solicits and realizes sufficient contributions from outside a core team."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Contribution",
+        "topic": "Responsibilities",
+        "heuristic": "The system clearly communicates responsibilities and steps conducted by a contributor for authoring, reviewing, and publishing design, code, and doc."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Contribution",
+        "topic": "Turnaround",
+        "heuristic": "The system team enables smaller contributions - fixes and small enhancements - to quickly be turned around and available in adopting products."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Contribution",
+        "topic": "Proposals",
+        "heuristic": "The system has an effective workflow for soliciting and responding to contribution proposals."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Contribution",
+        "topic": "Criteria",
+        "heuristic": "Candidate contributors effectively discern when a feature belongs to a shared system vs solved independently in their product"
+    },
+    {
+        "category": "Process",
+        "subcategory": "Contribution",
+        "topic": "Intake",
+        "heuristic": "The system clearly publishes 1+ web-based and/or recurring internal events (like critique) for contribution proposal intake."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Management",
+        "topic": "Sprint/iteration planning",
+        "heuristic": "The system team conducts work iteratively to groom, prioritize, plan, conduct, and review work, such as by Sprint."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Management",
+        "topic": "Standup/scrum status",
+        "heuristic": "The system team regularly convenes to discuss work completed, upcoming, and blocked, such as by Standup."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Management",
+        "topic": "Showcasing progress",
+        "heuristic": "The system team routinely and effectively presents progress to interested stakeholders."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Management",
+        "topic": "Sharing work",
+        "heuristic": "The system team has fluid, effective, and regular ways to share work within core team members."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Management",
+        "topic": "Task sizing",
+        "heuristic": "The system and it's team break down the work into reasonably sized features and tasks."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Management",
+        "topic": "Requests & defects",
+        "heuristic": "The system provides a mechanism for system constituents (users, makers) to request new features and know their status and priority."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Management",
+        "topic": "Roadmap planning",
+        "heuristic": "The system team regularly conducts strategic planning & prioritization, such as quarterly or semi-annually."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Management",
+        "topic": "Feature development process",
+        "heuristic": "The system team has a well-defined process for designing, coding, and documenting system features."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Management",
+        "topic": "Backlog",
+        "heuristic": "The system team has a system to manage ongoing issues, defects, and tasks, such as a backlog."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Onboarding",
+        "topic": "Autonomy",
+        "heuristic": "System users can use the system via assets and documentation without significant help from an expert."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Onboarding",
+        "topic": "Modular adoption",
+        "heuristic": "The system offers clear instructions on how to package and adopt a subset of visual style and component features."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Onboarding",
+        "topic": "Getting started as an engineer",
+        "heuristic": "The system offers a well-defined onboarding process so that engineers begin confidently and successfully."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Onboarding",
+        "topic": "Ease of integration",
+        "heuristic": "The system code can be injected into other products and frameworks within minimal effort and negative impacts to existing product environment(s)."
+    },
+    {
+        "category": "Process",
+        "subcategory": "Onboarding",
+        "topic": "Getting started as an designer",
+        "heuristic": "The system offers a well-defined onboarding process so that designers begin confidently and successfully."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Adoption",
+        "topic": "Product prioritization",
+        "heuristic": "The system applies to a clearly defined product set with designated flagships who's adoption is essential."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Adoption",
+        "topic": "Monitoring",
+        "heuristic": "The system has a well-defined system for monitoring and reporting on system adoption across the enterprise."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Adoption",
+        "topic": "Roadmap alignment",
+        "heuristic": "Product development processes - particularly, redesigns - anticipate the application of and ongoing evolution of a system."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Adoption",
+        "topic": "Adoption approaches",
+        "heuristic": "The system offers a clear \"checklist\" and alternatives for how to adopt the system, whether all at once or incrementally."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Adoption",
+        "topic": "Demos and coordination",
+        "heuristic": "The system program has established practices for convening with, coordinating changes, and discussing scope and delivery with individual product owners."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Adoption",
+        "topic": "Product management leadership",
+        "heuristic": "The system engages product management, particularly leadership, sufficiently to recognize near- and far-term implications to product roadmaps and priorities."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Alignment",
+        "topic": "Engineering / IT",
+        "heuristic": "The system has sufficiently engaged IT leadership to advocate and prioritize system integration"
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Alignment",
+        "topic": "Brand",
+        "heuristic": "The system team engages brand as a part of digital product design and development, incorporating their influence into the system."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Alignment",
+        "topic": "Steering committee",
+        "heuristic": "The system has designated leader(s) sufficiently engaged in and decisive on activity to sustain momentum."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Alignment",
+        "topic": "Executive endorsement",
+        "heuristic": "The system is endorsed by executive(s) (typically, VP or above) as an valuable activity across products it reaches, with sufficient authority and coordination to converge disparate design."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Vision",
+        "topic": "Funding",
+        "heuristic": "The organization funds the system as an ongoing operating and occasional capital expense."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Vision",
+        "topic": "Customer types",
+        "heuristic": "The system has a well-defined set of prioritized customers by practice area (design, dev, writers, etc) and organizational units."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Vision",
+        "topic": "Roadshows",
+        "heuristic": "The system is easily communicated by a variety of materials including presentations of varying length (such as 5min v 60min) and audience targets (execs vs product teams vs disciplines)."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Vision",
+        "topic": "Recognition",
+        "heuristic": "The organization recognizes the system as a long-term, portfolio or enterprise-level investment, as evidenced through funding, practice, and product-by-product behaviors."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Vision",
+        "topic": "Priorities",
+        "heuristic": "The system team is focusing on the right work at the right time to serve the evolving needs of relevant products."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Vision",
+        "topic": "Outputs",
+        "heuristic": "The system clearly articulates the primary outputs delivered for customers to use."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Vision",
+        "topic": "Customer needs",
+        "heuristic": "The system team understands the needs of their customers, such as product teams."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Vision",
+        "topic": "Rationale",
+        "heuristic": "The system expresses its rationale clearly to sponsors, products it serves and groups it aligns with."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Vision",
+        "topic": "Measurement",
+        "heuristic": "The system has defined, monitors, and reports on key performance indicators, such as objective(s) and key results."
+    },
+    {
+        "category": "Strategy",
+        "subcategory": "Vision",
+        "topic": "Roadmap",
+        "heuristic": "The system team can illustrate a roadmap of themes and high-level outcomes to pursue over the next 12-18 months."
+    }
+]
